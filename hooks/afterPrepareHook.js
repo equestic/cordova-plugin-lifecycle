@@ -62,7 +62,7 @@ function generateAndroidIcons(androidIcons, variant, iconOverlay) {
     // Loop through each android icon declaration
     androidIcons.forEach(function(icon) {
         var iconSource = icon.src;
-        var iconDestinationFolder = 'platforms/android/src/' + variant + '/res/drawable-' + icon.density + '/';
+        var iconDestinationFolder = 'platforms/android/src/' + variant + '/res/mipmap-' + icon.density + '/';
         
         // Create destination directory
         fs.ensureDir(iconDestinationFolder, function(dir_error) {
