@@ -3,6 +3,7 @@ cdvBuildMultipleApks=false
 
 // Specify product flavors
 android {
+    flavorDimensions "default"
     productFlavors {
         alpha {}
         beta {}
